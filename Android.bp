@@ -63,6 +63,9 @@ cc_library {
         arm64: {
             cflags: ["-DONLY_C"],
         },
+        riscv64: {
+            cflags: ["-DONLY_C"],
+        },
         x86: {
             cflags: ["-DONLY_C"],
         },
